@@ -2,10 +2,11 @@ import Vue from 'vue'
 import {
   Card,
   Button,
-  Icon
+  Icon,
+  Calendar
 } from 'element-ui';
 const UI = [Card,
-  Button, Icon
+  Button, Icon, Calendar
 ];
 UI.forEach((item) => {
   Vue.use(item)
